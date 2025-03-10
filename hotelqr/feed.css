@@ -1,0 +1,335 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #070606;
+}
+
+/* Navigation Bar */
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 10;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #050505e0;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    z-index: 5;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f4a261;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e76f51;
+}
+
+/* Feedback Form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    background-color: #f4a261;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #e76f51;
+}
+
+/* Sections Styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* How It Works Section */
+.how-it-works-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.step {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    transition: all 0.3s ease;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #161515;
+}
+
+/* Hover effect */
+.step:hover {
+    background-color: #f4a261;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.step:hover h3 {
+    color: white;
+}
+
+/* Subscription Plans Section */
+.subscription {
+    background-color: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.subscription h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.plan {
+    background-color: rgb(143, 98, 98);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: all 0.3s ease;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f4a261;
+    color: white;
+}
+
+.plan:hover h3 {
+    color: white;
+}
+
+.plan:hover p {
+    color: white;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #111;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.testimonials-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: #f4a261;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.testimonial:hover {
+    background-color: #e76f51;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f7f7f7;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li a {
+    font-size: 1rem;
+    color: #f4a261;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #e76f51;
+}

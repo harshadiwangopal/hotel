@@ -1,0 +1,342 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #050505e0;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 10;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f4a261;
+}
+
+.hero-content {
+    z-index: 5;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f4a261;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e76f51;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* How It Works Section */
+.how-it-works-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.step {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #161515;
+}
+
+/* Subscription Plans Section */
+.subscription {
+    background-color: #111;  /* Black background */
+    color: white;  /* White text color for contrast */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.subscription h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 1.1rem;
+    color: #ddd;  /* Light gray text for the paragraph */
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.plan {
+    background-color: rgb(143, 98, 98);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: all 0.3s ease;  /* Adds smooth transition */
+}
+
+.plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;  /* Dark text color to ensure contrast with the white card background */
+}
+
+.plan p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.plan p strong {
+    font-size: 1.2rem;
+}
+
+
+/* Hover effect for subscription plans */
+.plan:hover {
+    transform: scale(1.05);  /* Slightly scale up the plan */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);  /* Increase shadow for depth */
+    background-color: #f4a261;  /* Change background color */
+    color: white;  /* Change text color */
+}
+
+/* Add hover effect on the heading text */
+.plan:hover h3 {
+    color: white;  /* Change heading color on hover */
+}
+
+/* Add hover effect on the paragraph text */
+.plan:hover p {
+    color: white;  /* Change paragraph text color on hover */
+}
+
+/* Hover effect for subscription plans */
+.plan:hover {
+    transform: scale(1.05);  /* Slightly scale up the plan */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);  /* Increase shadow for depth */
+    background-color: #f4a261;  /* Change background color */
+    color: white;  /* Change text color */
+}
+
+/* Add hover effect on the heading text */
+.plan:hover h3 {
+    color: white;  /* Change heading color on hover */
+}
+
+/* Add hover effect on the paragraph text */
+.plan:hover p {
+    color: white;  /* Change paragraph text color on hover */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f7f7f7;
+}
+/* Testimonials Section */
+#testimonials {
+    background-color: #111; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+    color: white; /* White text for contrast */
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.testimonials-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: #f4a261; /* Light orange background for each testimonial */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 30%;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial p strong {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Hover effect for testimonials */
+.testimonial:hover {
+    background-color: #e76f51; /* Change background on hover */
+}
+/* How It Works Section */
+.how-it-works-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.step {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    transition: all 0.3s ease;  /* Adds smooth transition */
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Hover effect for each step */
+.step:hover {
+    background-color: #f4a261;  /* Change background color on hover */
+    color: white;  /* Change text color */
+    transform: scale(1.05);  /* Slightly scale up the element */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Add shadow for depth */
+}
+
+/* Add hover effect on the heading text */
+.step:hover h3 {
+    color: white;  /* Change heading color on hover */
+}
+/* Footer Section */
+.footer {
+    background-color: #111;  /* Black background */
+    color: white;  /* White text */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li a {
+    font-size: 1rem;
+    color: #f4a261;  /* Light orange color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #e76f51;  /* Darker orange on hover */
+}
+

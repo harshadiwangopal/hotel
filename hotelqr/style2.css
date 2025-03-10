@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111; /*  background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white; /* White text  */
+}
+
+.form-container {
+    background-color: #f4a261;  /*  background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow  */
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #333; 
+    /* Darker text  */
+}
+
+.form-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white; /* heading text */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #fff; /*  label text */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333; /* Dark text */
+    background-color: #fff; /* White input background */
+}
+
+.input-group input:focus {
+    border-color: #e76f51; /* Vibrant border color on focus */
+    outline: none;
+    box-shadow: 0 0 4px rgba(231, 111, 81, 0.5); /* Light glow effect */
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #e76f51; /* Vibrant button background */
+    color: #fff; /* White button text */
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+   
+}
