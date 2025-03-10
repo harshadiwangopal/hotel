@@ -10,6 +10,18 @@ body {
     color: #333;
 }
 
+a{
+    color: #f0ecec;
+    text-decoration: none;
+    
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
 /* Hero Section */
 .hero {
     background-color: #050505e0;
